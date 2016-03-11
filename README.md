@@ -1,9 +1,5 @@
 # Mods
-Mods which can be injected to EVE exefil
-e
-
-
-
+Mods which can be injected to EVE exefile using EVEModX framework.
 
 ## Todo
 - FleetAutoTarget 自动锁定广播目标
