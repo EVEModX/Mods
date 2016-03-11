@@ -1,6 +1,12 @@
 # Mods
 Mods which can be injected to EVE exefile using EVEModX framework.
 
+## Mods
+- Autopilot0 自动导航
+- CustomThemeColor 自定义配色
+- RemoveBannedWordsList 聊天过滤反和谐
+- RemoveTiancityBanner 移除退出游戏显示的 banner
+
 ## Todo
 - FleetAutoTarget 自动锁定广播目标
 - RenameWormholes 替换虫洞名称 e.g. 虫洞Q003(通往零零)
