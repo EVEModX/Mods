@@ -2,7 +2,7 @@
 Mods which can be injected to EVE exefile using EVEModX framework.
 
 ## Mods
-- Autopilot0 自动导航
+- Autopilot0 自动导航(0m)
 - CustomThemeColor 自定义配色
 - RemoveBannedWordsList 聊天过滤反和谐
 - RemoveTiancityBanner 移除退出游戏显示的 banner
