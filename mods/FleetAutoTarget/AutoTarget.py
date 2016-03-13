@@ -3,6 +3,7 @@ from eve.client.script.ui.shared.fleet.fleetbroadcast import FleetBroadcastView
 
 def PatchFn(fn):
     def wrapper(self):
+        ret = fn(self)
         try:
             br = sm.GetService('fleet').GetBroadcastHistory()[0]
             logmodule.general.Log("GetBroadcastListEntry invoked: %s %d %d" % (br.name, br.charID, br.itemID), logmodule.LGNOTICE)
@@ -10,7 +11,7 @@ def PatchFn(fn):
                 sm.GetService('target').TryLockTarget(br.itemID)
         except:
             pass
-        return fn(self)
+        return ret
     return wrapper
 
 def RunPatch():
