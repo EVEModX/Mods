@@ -1,6 +1,8 @@
 # Mods
 Mods which can be injected to EVE exefile using EVEModX framework.
 
+**WARNING: THIS IS A HACK OF EVE. ANY USE OF THIS CODE MAY BE PUNISHED BY THE OFFICIAL. USE AT YOUR OWN RISK.**
+
 ## Mods
 - Autopilot0 自动导航(0m)
 - CustomThemeColor 自定义配色
