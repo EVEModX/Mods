@@ -1,0 +1,3 @@
+import KillMenu
+
+KillMenu.RunPatch()
