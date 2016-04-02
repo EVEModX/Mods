@@ -5,7 +5,7 @@ import os
 def ExportXML():
     xml = '<eveapi version="2"><result>'
     xml += '<characterID>%d</characterID>' % session.charid
-    xml += '<name>%s</name>' % cfg.eveowners.Get(session.charid).name
+    xml += '<name>%s</name>' % cfg.eveowners.Get(session.charid).name.encode("utf8")
     xml += '<rowset columns="typeID,skillpoints,level,published" key="typeID" name="skills">'
 
     skills = sm.GetService('skills').GetSkills()
