@@ -5,7 +5,7 @@ import os
 def ExportXML():
     xml = '<eveapi version="2"><result>'
     xml += '<characterID>%d</characterID>' % session.charid
-    xml += '<name>%s</name>' % cfg.eveowners.Get(session.charid).name.encode("utf8")
+    xml += '<name>%s</name>' % cfg.eveowners.Get(session.charid).name
     xml += '<rowset columns="typeID,skillpoints,level,published" key="typeID" name="skills">'
 
     skills = sm.GetService('skills').GetSkills()
@@ -22,4 +22,4 @@ def ExportFile():
         os.makedirs(directory)
     filename = directory + '%s.xml' % cfg.eveowners.Get(session.charid).name
     with open(filename, 'w') as f:
-        f.write(xml)
+        f.write(xml.encode("utf8"))
