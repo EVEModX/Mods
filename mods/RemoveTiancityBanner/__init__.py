@@ -1,3 +1,0 @@
-import RemoveTiancityBanner
-
-RemoveTiancityBanner.RunPatch()

@@ -9,7 +9,7 @@ Mods which can be injected to EVE exefile using EVEModX framework.
 - FleetAutoTarget 自动锁定广播目标
 - OpenKillboard 打开玩家击杀榜页面
 - RemoveBannedWordsList 聊天过滤反和谐
-- RemoveTiancityBanner 移除退出游戏显示的 banner
+- **RemoveTiancityBanner 移除退出游戏显示的 banner**
 - SkillsExport 导出技能
 - ZhNumFormat 将合同价格数字描述改为中文习惯
 
