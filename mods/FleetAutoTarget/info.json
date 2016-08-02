@@ -1,6 +1,6 @@
 {
-	"name":"FleetAutoTaget",
-	"version":"0.1.1",
-	"author":"Wangym5106",
-	"description":"自动锁定广播目标"
+	"name": "FleetAutoTarget",
+	"version": "0.1.1",
+	"author": "Wangym5106",
+	"description": "自动锁定广播目标"
 }
