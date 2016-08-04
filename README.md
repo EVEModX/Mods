@@ -13,6 +13,8 @@ Mods which can be injected to EVE exefile using EVEModX framework.
 - SkillsExport 导出技能
 - ZhNumFormat 将合同价格数字描述改为中文习惯
 
+## Under Development
+- AutoAlert 来红自动发预警
 
 ## Todo
 - RenameWormholes 替换虫洞名称 e.g. 虫洞Q003(通往零零)

@@ -1,0 +1,6 @@
+{
+  "name":"AutoAlert",
+  "version":"0.0.1",
+  "author":"hanyuwei70",
+  "description":"本地来红自动在指定预警频道发送位置和对方ID"
+}
