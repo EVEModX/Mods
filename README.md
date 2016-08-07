@@ -13,7 +13,7 @@ Mods which can be injected to EVE exefile using EVEModX framework.
 - SkillsExport 导出技能
 - ZhNumFormat 将合同价格数字描述改为中文习惯
 
-## Under Development
+## Alpha
 - AutoAlert 来红自动发预警
 
 ## Todo
